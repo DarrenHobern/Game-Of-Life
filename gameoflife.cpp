@@ -132,6 +132,7 @@ int main () {
         update_board(board, tempBoard);
         sleep(1);
     }
-
+    delete board;
+    delete tempBoard;
    return 0;
 }
